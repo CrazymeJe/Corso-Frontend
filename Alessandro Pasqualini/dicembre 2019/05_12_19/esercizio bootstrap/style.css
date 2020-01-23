@@ -1,0 +1,22 @@
+.img{
+    width: 50px;
+    height: 50px;
+}
+.testo{
+    color: #ffffff;
+    text-align: center;
+}
+.colore{
+    background-color: rgb(157,214,214, 0.4);
+}
+.bordo{
+    border: none;
+}
+.footer{
+    margin-top: 30px;
+    padding: 20px 0 0 50px;
+    border-top: 0.5px solid #444444;
+}
+.spazio{
+    padding: 0;
+}

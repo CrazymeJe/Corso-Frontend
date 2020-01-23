@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+            integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+            crossorigin="anonymous">
+        <link rel="Stylesheet" type="text/css" href="style.css">
+        <title>Form 2</title>
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <h1>Checkout form</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat.</p>
+            </header>
+            <div class="row">
+                <div class="col-8">
+                    <h4>Billing address</h4>
+                    <form>
+                        <div class="form-row">
+                            <div class="col-6">
+                                <label>First name</label>
+                                <input type="text" class="form-control" placeholder="First name">
+                            </div>
+                            <div class="form-group col-6">
+                                <label>Last name</label>
+                                <input type="text" class="form-control" placeholder="Last name">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <label>Username</label>
+                            <div class="input-group mb-2">
+                                <div class="input-group-prepend">
+                                    <div class="input-group-text">@</div>
+                                </div>
+                                <input
+                                    type="text"
+                                    class="form-control"
+                                    id="inlineFormInputGroupUsername2"
+                                    placeholder="Username">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-12">
+                                <label for="inputEmail4">Email</label>
+                                <input
+                                    type="email"
+                                    class="form-control"
+                                    id="inputEmail4"
+                                    placeholder="you@example.com">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-12">
+                                <label for="inputAddress">Address</label>
+                                <input
+                                    type="text"
+                                    class="form-control"
+                                    id="inputAddress"
+                                    placeholder="1234 Main St">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-12">
+                                <label for="inputAddress2">Address 2</label>
+                                <input
+                                    type="text"
+                                    class="form-control"
+                                    id="inputAddress2"
+                                    placeholder="Apartment, studio, or floor">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-4">
+                                <label for="inputState">Country</label>
+                                <select id="inputState" class="form-control">
+                                    <option selected="selected">Choose...</option>
+                                    <option>...</option>
+                                </select>
+                            </div>
+                            <div class="form-group col-4">
+                                <label for="inputState">State</label>
+                                <select id="inputState" class="form-control">
+                                    <option selected="selected">Choose...</option>
+                                    <option>...</option>
+                                </select>
+                            </div>
+                            <div class="form-group col-4">
+                                <label for="inputZip">Zip</label>
+                                <input type="text" class="form-control" id="inputZip">
+                            </div>
+                        </div>
+                        <div class="form-check linea">
+                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                            <label class="form-check-label" for="defaultCheck1">
+                                Shipping address
+                            </label>
+                        </div>
+                        <div class="form-check line">
+                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                            <label class="form-check-label" for="defaultCheck1">
+                                Save
+                            </label>
+                        </div>
+                        <h4>Payment</h4>
+                        <div class="form-check">
+                            <input
+                                class="form-check-input"
+                                type="radio"
+                                name="exampleRadios"
+                                id="exampleRadios1"
+                                value="option1"
+                                checked="checked">
+                            <label class="form-check-label" for="exampleRadios1">
+                                Credit card
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input
+                                class="form-check-input"
+                                type="radio"
+                                name="exampleRadios"
+                                id="exampleRadios2"
+                                value="option2">
+                            <label class="form-check-label" for="exampleRadios2">
+                                Debit card
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input
+                                class="form-check-input"
+                                type="radio"
+                                name="exampleRadios"
+                                id="exampleRadios2"
+                                value="option2">
+                            <label class="form-check-label" for="exampleRadios2">
+                                Paypal
+                            </label>
+                        </div>
+                        <div class="row spazio">
+                            <div class="col-6">
+                                <label>Name on card</label>
+                                <input type="text" class="form-control">
+                                <small id="attention" class="text-muted">
+                                    Full name as displayed on card
+                                </small>
+                            </div>
+                            <div class="col-6">
+                                <label>Credit card number</label>
+                                <input type="text" class="form-control">
+                            </div>
+                        </div>
+                        <div class="row spazio line">
+                            <div class="col-3">
+                                <label>Expiration</label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="col-3">
+                                <label>CVV</label>
+                                <input type="text" class="form-control">
+                            </div>
+                        </div>
+                        <button type="button" class="btn btn-primary spazio col-12">Continue to checkout</button>
+                    </form>
+                </div>
+                <div class="col-4">
+                    <h4>Your cart</h4>
+                    <table class="table">
+                        
+                        <tbody>
+                            <tr>
+                                <th scope="row">Product name</th>
+                                <td></td>
+                                <td></td>
+                                <td>$12</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Second product</th>
+                                <td></td>
+                                <td></td>
+                                <td>$8</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Third product</th>
+                                <td></td>
+                                <td></td>
+                                <td>$5</td>
+                            </tr>
+                            <tr class="verde">
+                                <th scope="row">Promo code</th>
+                                <td></td>
+                                <td></td>
+                                <td>-$5</td>
+                            </tr>
+                            <tr class="verde">
+                                <th scope="row">Total (USD)</th>
+                                <td></td>
+                                <td></td>
+                                <td>$20</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Promo code" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                        <div class="input-group-append">
+                            <span class="input-group-text" id="basic-addon2">Redeem</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script
+            src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+            crossorigin="anonymous"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"></script>
+        <script
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+            crossorigin="anonymous"></script>
+    </body>
+</html>

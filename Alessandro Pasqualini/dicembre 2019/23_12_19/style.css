@@ -1,0 +1,170 @@
+.bord-green{
+    width: 56px;
+    border: 3px solid #2da368;
+    border-radius: 50%;
+    float: left;
+}
+.bord-blu{
+    width: 50px;
+    border: 3px solid #2c3f51;
+    border-radius: 50%;
+}
+.profile{
+    width: 100%;
+    border-radius: 50%;
+}
+.sfondo{
+    background-color: #2c3f51;
+    padding-left: 0;
+    height: 960px;
+}
+.name{
+    margin-left: 100px;
+    margin-top: 50px;
+    color: #ffffff;
+    margin-bottom: 50px;
+}
+.icon-color{
+    color: #43607a;
+}
+.search{
+    background-color: #43607a;
+    border: none;
+    color: #ffffff;
+}
+.style-bar{
+    background-color: #43607a;
+    color: #ffffff;
+    border-color: #43607a;
+    border-radius: 0;
+}
+.style-bar:focus{
+    background-color: #43607a;
+}
+.space{
+    width: 100%;
+    margin-left: 0;
+    padding-left: 0;
+}
+.account{
+    margin: 30px 0 0 30px;
+}
+
+.img-contatti img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    float: left;
+    
+}
+.pallino{
+    position: absolute;
+    margin-top: -20px;
+    font-size: 30px;
+    color: #2da368;
+}
+.rosso{
+    color: #EA3414;
+}
+.giallo{
+    color: #E0F62C;
+}
+.grigio{
+    color: #C0C1BB;
+}
+.contatti{
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+.mex{
+    margin-left: 70px;
+    color: #ffffff;
+}
+.nome{
+    margin-bottom: 0;
+}
+.selez{
+    background-color: #43607a;
+}
+.link{
+    color: #ffffff;
+    font-style: none;
+}
+.bottone{
+    text-align: center;
+    border-right: 1px solid #2c3f51;
+    background-color: #43607a;
+    padding: 10px 0 10px 0;
+}
+.scroll{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: calc(100% - 200px);
+    position: relative;
+}
+.contact-profile{
+    width: 100%;
+    line-height: 60px;
+    font-size: 20px;
+    color: #32465a;
+    background-color: #ffffff;
+}
+.color-plane{
+    background-color: #32465a;
+    color: #ffffff;
+}
+.name-contact{
+    display: inline;
+}
+.background{
+    background-color: #f5f5f5;
+    color: #32465a;
+    height: 960px;
+}
+.background-clip{
+    background-color: #f5f5f5;
+    color: #32465a;
+}
+ul li img{
+    width: 40px;
+    height: 40px ;
+    object-fit: cover;
+    border-radius: 50%;
+    float: left;
+}
+.sent{
+    float: left;
+    clear: both;
+}
+.replies{
+    float: right;
+    clear: both;
+    margin-right: 15px;
+}
+.sent p{
+    background: #435f7a;
+    color: #f5f5f5;
+}
+.replies p{
+    background: #ffffff;
+}
+.message ul li p{
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 20px;
+    max-width: 296px;
+    line-height: 130%;
+    font-size: 15px;
+}
+ul{
+    list-style: none;
+}
+.form-control{
+    border-radius: 0;
+}
+.message{
+    height: calc(100% - 116px);
+}
+
+

@@ -1,0 +1,128 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.color{
+    background-color: #F00707;
+    opacity: 0.8;
+}
+nav li{
+    list-style: none;
+    color: #ffffff;
+}
+.titolo-menu{
+    color: #ffffff;
+    width: 30%;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.grid{
+    width: 45%;
+    margin: 15px;
+    opacity: 0.8;
+}
+#container-card{
+    display: inline-flex;
+}
+.card{
+    margin: 0 20px 0 20px;
+}
+#container-list{
+    display: inline-flex;
+}
+.title{
+    font-weight: bold;
+    padding-top: 50px;
+    margin: 0 20px 0 20px;
+}
+.subtitle{
+    color: #F00707;
+    opacity: 0.8;
+    font-weight: bold;
+    padding: 10px 0 10px 0;
+    font-size: 30px;
+    margin: 0 20px 0 20px;
+}
+hr{
+    border: solid 3px #F00707;
+    width: 30px;
+    margin-left: 20px;
+    border-radius: 50px;
+}
+.text{
+    font-size: 10px;
+    font-weight: bold;
+    margin: 0 20px 0 20px;
+    padding: 10px 0 10px 0;
+}
+.maschera{
+    width: 100%;
+    filter: grayscale(60%);
+}
+.spazio{
+    margin-top: 70px;
+}
+form{
+    margin: 0 20px 0 20px;
+}
+footer{
+    height: 150px;
+    text-align: right;
+    font-size: x-small;
+    background-color: #F00707;
+    margin-top: 50px;
+    opacity: 0.1;
+}
+.form-control{
+    border-radius: 0;
+}
+.radius{
+    border-radius: 0;
+    width: 100%;
+    background-color: #F00707;
+    border-color: #F00707;
+    opacity: 0.8;
+}
+.card{
+    text-align: center;
+}
+.basic{
+    background-color: #7F837F;
+    padding: 20px 0 20px 0;
+    color: #ffffff;
+    opacity: 0.8;
+}
+.pro{
+    background-color: #F00707;
+    padding: 20px 0 20px 0;
+    color: #ffffff;
+    opacity: 0.8;
+}
+.btn-danger{
+    background-color: #F00707;
+    opacity: 0.8;
+    border-radius: 0;
+    padding: 10px 20px 10px 20px;
+}
+.btn-color{
+    background-color:#ffffff;
+    color: #000000;
+}
+.list-group-item{
+    background-color: #FEEDF3;
+}
+.card-body{
+    background-color: #FEEDF3;
+}
+#prima{
+    z-index: 10;
+    position: absolute;
+}
+.aggiunta{
+    margin: auto;
+}
+.nascosto{
+    display: none;
+}
+.close{
+    color: black;
+}
